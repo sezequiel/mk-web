@@ -11753,6 +11753,9 @@ section#contact .section-heading {
 /*RESPONSIVE QUERY DE 768*/
 
 @media (min-width: 768px) {
+  .imagen-banner{
+    height: 217px;
+  }
   section {
     padding: 9rem 0;
   }
@@ -11867,6 +11870,10 @@ section#contact .section-heading {
   }
 }
 @media (min-width: 1200px) {
+  .imagen-banner{
+    width: 545px;
+    height: 365px;
+  }
   .timeline > li {
     min-height: 170px;
   }
